@@ -1,0 +1,37 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Responsive Page</title> 
+  <link rel="stylesheet" href="style.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ </head> 
+ <body> 
+  <div class="flex-container"> 
+   <div class="flex-box1"> 
+    <h1>Task 2</h1> 
+    <p>Responsive Webpage</p> 
+   </div> 
+   <div class="flex-box"> 
+    <h2>Data Science</h2> 
+    <p>Data science extracts insights from data. It uses techniques like machine learning and statistics.</p> 
+   </div> 
+   <div class="flex-box"> 
+    <h2>Cybersecurity</h2> 
+    <p>Cybersecurity protects digital data and systems from cyber threats, hacking, and data breaches.</p> 
+   </div> 
+   <div class="flex-box"> 
+    <h2>AWS</h2> 
+    <p>AWS is a cloud computing platform offering scalable infrastructure and services.</p> 
+   </div> 
+  </div> 
+  <script>
+    const boxes = document.querySelectorAll('.flex-box');
+
+    boxes.forEach(box => {
+      box.addEventListener('click', () => {
+        box.style.background = `hsl(${Math.floor(Math.random() * 360)}, 100%, 80%)`;
+      });
+    });
+  </script> 
+ </body>
+</html>

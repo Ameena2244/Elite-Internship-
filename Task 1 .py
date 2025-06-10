@@ -1,4 +1,4 @@
-#  Step 1: Import required libraries
+#  Step 1: Imported libraries
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
@@ -26,7 +26,7 @@ def extract_data(file_path):
 def transform_data(df):
     print(" Transforming data...")
 
-    # Separate features and target
+    # Separating features and target
     X = df.drop(columns=['Name', 'Passed'])
     y = df['Passed']
 
@@ -39,7 +39,7 @@ def transform_data(df):
         ('scaler', StandardScaler())
     ])
 
-    # Combine transformers
+    # Combining transformers
     preprocessor = ColumnTransformer(transformers=[
         ('num', numeric_transformer, numeric_features)
     ])

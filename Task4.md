@@ -8,3 +8,6 @@
 🧠 Demonstrates immersive learning and visualization through AR
 
 💡 Suitable for education, demo presentations, or virtual tours
+
+🎥 Demo:
+👉 Click here to watch the demo video

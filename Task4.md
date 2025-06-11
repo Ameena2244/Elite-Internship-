@@ -10,5 +10,5 @@
 💡 Suitable for education, demo presentations, or virtual tours
 
 🎥 Demo:
-👉 Click here to watch the demo video
-(ar-train.mp4)
+[Click here to watch](ar-train.mp4)
+

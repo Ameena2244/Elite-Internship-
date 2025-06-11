@@ -1,4 +1,6 @@
-#AR/VR INTERFACE DESIGN
+AR/VR INTERFACE DESIGN
+
+
  I developed an interactive Augmented Reality (AR) train model that runs directly in the browser using WebAR technology. This project demonstrates how 3D models can be viewed in real-world environments using just a smartphone camera — without needing any app installation.
 
 🔍 Highlights:

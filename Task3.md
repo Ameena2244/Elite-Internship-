@@ -8,7 +8,6 @@ As part of the Elite Internship, I redesigned a core Instagram interaction by ad
 ## 🔹 Highlights:
 - Sparkle animation when the ❤️ is tapped
 - Adds a fun and interactive user experience
-- Simple HTML + CSS + JS used
 - Engaging effect to increase user interaction
 
 ## 📹 Demo
